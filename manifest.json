@@ -6,7 +6,11 @@
   "action": {
     "default_icon": "logo128.png"
   },
-  "permissions": ["contextMenus", "activeTab"],
+  "permissions": [
+    "contextMenus",
+    "scripting",
+    "activeTab"
+  ],
   "background": {
     "service_worker": "background.js"
   },

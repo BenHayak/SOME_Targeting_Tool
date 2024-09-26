@@ -8,6 +8,13 @@ This privacy policy outlines how the Same Origin Method Execution - Targeting To
 ## Information We Collect
 The Extension does not collect, store, or share any personal data. It only accesses information necessary for its functionality on the active tab when requested by the user.
 
+## Use of Scripting Permission
+The Same Origin Method Execution - Targeting Tool extension utilizes the `scripting` permission to execute JavaScript code on specific web pages that the user interacts with. This functionality allows the extension to create alphanumeric references based on the selected elements in the DOM and nothing more.
+
+### How It Works:
+- When the user selects an element and activates the context menu item, the extension injects a script into the current page to generate a reference. 
+- The extension does not collect, store, or transmit any personal data. All operations are performed locally within the user's browser.
+
 ## Use of Data
 The Extension uses the active tab information solely to generate alphanumeric references for selected DOM elements.
 
